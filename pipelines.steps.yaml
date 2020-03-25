@@ -2,8 +2,8 @@ resources:
   - name: myAppRepo
     type: GitRepo
     configuration:
-      gitProvider: myGitHub               # Change to your integration
-      path: myself/myrepo  
+      gitProvider: gitlib_repo_liwei               # Change to your integration
+      path: liwei2151284/project-examples
       
 pipelines:
   - name: pipeline_hello_world
